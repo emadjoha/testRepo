@@ -77,7 +77,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
             //KeyPair pair = getKeyPairFromKeyStore();
 
             //Our secret message
-            String message = "the answer to life the universe and everything";
+            String message = "thiskey";
 
             //Encrypt the message
             String cipherText = encrypt(message, pair.getPublic());
